@@ -1,17 +1,25 @@
-***How to run:
+*** How to run:
+
 1.download project and open pom.xml
+
 2.maven clean and install to make sure dependencies ready
+
 3.run main function in Class TransactionProcessor
 
-***How it works:
-demo: https://www.youtube.com/watch?v=dVQ4ArdfOyw
-Step1: prepare data-This monitoring system will build 10k transactions,
+*** How it works:
+
+-demo: https://www.youtube.com/watch?v=dVQ4ArdfOyw
+
+-Step1: prepare data-This monitoring system will build 10k transactions,
        and write to files/test.csv
-Step2: Read data and calculate risk for each transaction, write result to CSV file
+
+-Step2: Read data and calculate risk for each transaction, write result to CSV file
 
 
-***Rules:
+*** Rules:
+
 -Rule 1: if user blocked this merchant, return 1.0 risk score
+
 
 -Rule 2: check unusual timeframe
         classify the activity into 5 windows, each window with a different risk score,
