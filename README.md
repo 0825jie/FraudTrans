@@ -34,3 +34,5 @@
 
 -Rule 5: check if the user sends money to same merchant within a short time
         return 0.5 if 2 transactions found within 30 mins, return score 1.0 if 3 or more transactions
+
+Finally calculate total risk score and compare to threshold to get result
